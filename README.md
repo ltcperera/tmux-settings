@@ -4,7 +4,7 @@ This is my tmux setup with customizations that I use for development. Steps to g
 
 1. Setup tmux and tmuxinator on your Linux distribution:
 
-~~~ 
+~~~
    sudo apt-get update
    sudo apt-get install tmux
    sudo apt-get install tmuxinator
@@ -16,7 +16,7 @@ This is my tmux setup with customizations that I use for development. Steps to g
    cp tmux.conf ~/.tmux.conf
 ~~~
 
-3. Copy all of the *.yml files to the ~/.tmuxinator directory
+3. Copy all of the *.yml files to the ~/.tmuxinator directory:
 
 ~~~
    cp *.yml ~/.tmuxinator
@@ -28,9 +28,22 @@ This is my tmux setup with customizations that I use for development. Steps to g
    cp tmuxinator.bash ~/.tmuxinator
 ~~~
 
-5. Append the following line to your .bashrc file
+5. Assuming you are using BASH as your shell, append the following line to your .bashrc file:
 
 ~~~
    source ~/.tmuxinator/tmuxinator.bash
 ~~~
 
+## Usage
+
+In order to use the settings above, start your terminal session and isue the mux (short for tmuxinator) followed by the yml file indicating the profile you wish to use. For instance, for C/C++ development, I use the following:
+
+~~~
+   mux c
+~~~
+
+For Android, I use the following:
+
+~~~
+   mux android
+~~~
