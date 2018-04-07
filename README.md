@@ -16,19 +16,25 @@ This is my tmux setup with customizations that I use for development. Steps to g
    cp tmux.conf ~/.tmux.conf
 ~~~
 
-3. Copy all of the *.yml files to the ~/.tmuxinator directory:
+3. Create the ~/.tmuxinator directory if it does not exist:
+
+~~~
+   mkdir ~/.tmuxinator
+~~~
+
+4. Copy all of the *.yml files to the ~/.tmuxinator directory:
 
 ~~~
    cp *.yml ~/.tmuxinator
 ~~~
 
-4. Copy tmuxinator.bash to the ~/.tmuxinator directory
+5. Copy tmuxinator.bash to the ~/.tmuxinator directory
 
 ~~~
    cp tmuxinator.bash ~/.tmuxinator
 ~~~
 
-5. Assuming you are using BASH as your shell, append the following line to your .bashrc file:
+6. Assuming you are using BASH as your shell, append the following line to your .bashrc file:
 
 ~~~
    source ~/.tmuxinator/tmuxinator.bash
@@ -47,3 +53,10 @@ For Android, I use the following:
 ~~~
    mux android
 ~~~
+
+## Quick Keyboard Shortcuts
+
+The following are the keyboard shortcuts defined in .tmux.conf that was setup above:
+
+` + Arrow - Switch window pane
+` + q     - Display window numbers
