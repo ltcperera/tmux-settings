@@ -1,6 +1,6 @@
 ## Terminal Multiplexer Setup
 
-This is my tmux setup with customizations that I use for development. Steps to get this setup are as follows:
+This is my tmux setup with customizations that I use for development at the terminal. Steps to get this setup are as follows:
 
 1. Setup tmux and tmuxinator on your Linux distribution:
 
