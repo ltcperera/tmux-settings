@@ -8,6 +8,12 @@ This is my tmux setup with customizations that I use for development at the term
    git clone git@github.com:ltcperera/tmux-settings.git tmux
    ```
 
-2. Logout and back in and start tmux.
+2. Checkout the tmux tpm plugin as follows:
 
-3. Hit the ` + I key to install the plugins.
+   ```
+   git clone https://github.com/tmux-plugins/tpm plugins/tpm
+   ```
+
+3. Logout and back in and start tmux.
+
+4. Hit the ` + I key to install the plugins.
