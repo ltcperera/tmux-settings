@@ -2,20 +2,12 @@
 
 This is my tmux setup with customizations that I use for development at the terminal. Steps to get this setup are as follows:
 
-1. Create the configuration directory for Tmux:
-    
-    ~~~
-    mkdir $HOME/.config/tmux
-    ~~~
-    
-2. Setup Tmux Plugin Manager
+1. Change to the $HOME/.config directory and clone the tmux-settings.git repository as follows
 
-    ~~~
-    chdir $HOME/.config/tmux
-    git clone https://github.com/tmux-plugins/tpm plugins/tpm
-    ~~~
+   ```
+   git clone git@github.com:ltcperera/tmux-settings.git tmux
+   ```
 
-3. Logout and back in and start tmux.
+2. Logout and back in and start tmux.
 
-4. Hit the ` + I key to install the plugins.
-
+3. Hit the ` + I key to install the plugins.
